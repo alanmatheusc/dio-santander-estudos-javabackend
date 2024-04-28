@@ -51,5 +51,8 @@ public class Operadores {
         System.out.println(numero1 == numero2);
         System.out.println(numero1.equals(numero2));
         // O metodo equals é para comparar objetos.
+
+       String resultado =  number >= number1 ? "True" : "false";
+        System.out.println(resultado);
     }
 }

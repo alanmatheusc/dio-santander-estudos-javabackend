@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="Tipos primitivos em java e declaração de constantes ( variaveis que não podem ser alteradas )">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/javabasico/Operadores.java" afterDir="false" />
+    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="Estudo dos Operadores em java.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/javabasico/DefinirAnoBissexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/javabasico/teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/javabasico/Operadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/javabasico/Operadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +48,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DefinirAnoBissexto.executor": "Run",
     "Application.MinhaClass.executor": "Run",
     "Application.Operadores.executor": "Run",
     "Application.TiposVariaveis.executor": "Run",
+    "Application.teste.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -57,7 +61,20 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Operadores">
+  <component name="RunManager" selected="Application.DefinirAnoBissexto">
+    <configuration name="DefinirAnoBissexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.alan.estudos.javabasico.DefinirAnoBissexto" />
+      <module name="curso-dio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.alan.estudos.javabasico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinhaClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dio.me.cursodio.MinhaClass" />
       <module name="curso-dio" />
@@ -97,8 +114,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.alan.estudos.javabasico.teste" />
+      <module name="curso-dio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.alan.estudos.javabasico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefinirAnoBissexto" />
+        <item itemvalue="Application.teste" />
         <item itemvalue="Application.Operadores" />
         <item itemvalue="Application.TiposVariaveis" />
         <item itemvalue="Application.MinhaClass" />
@@ -146,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713998487230</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Estudo dos Operadores em java.">
+      <option name="closed" value="true" />
+      <created>1714092876930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714092876930</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +215,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mudança nome do package e adicionado a classe de TiposVariaveis" />
     <MESSAGE value="Tipos primitivos em java e declaração de constantes ( variaveis que não podem ser alteradas )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tipos primitivos em java e declaração de constantes ( variaveis que não podem ser alteradas )" />
+    <MESSAGE value="Estudo dos Operadores em java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo dos Operadores em java." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/alan/estudos/javabasico/DefinirAnoBissexto.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
