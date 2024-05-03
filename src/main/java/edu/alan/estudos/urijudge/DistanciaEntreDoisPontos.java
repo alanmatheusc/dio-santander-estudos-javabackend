@@ -11,10 +11,10 @@ public class DistanciaEntreDoisPontos {
         double y1 =  sc.nextDouble();
         double x2 = sc.nextDouble();
         double y2 = sc.nextDouble();
-        DistanciaDeDoisPontos(x1,x2,y1,y2);
+        calcularDistanciaDeDoisPontos(x1,x2,y1,y2);
         sc.close();
     }
-    public static void DistanciaDeDoisPontos(double x1,double x2, double y1, double y2){
+    public static void calcularDistanciaDeDoisPontos(double x1,double x2, double y1, double y2){
         double distanciaX = Math.pow((x2 - x1),2);
         double distanciay = Math.pow((y2 - y1),2);
         double distanciaEntreXeY = Math.sqrt(distanciaX + distanciay);
