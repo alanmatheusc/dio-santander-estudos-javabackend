@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="Alteração nome de metodo, aplicando a convenção camelCase.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/urijudge/Diferenca.java" afterDir="false" />
+    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="Calculo de Diferença proposto pelo URI JUDGE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/urijudge/MediaTres.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
     "Application.DefinirAnoBissexto.executor": "Run",
     "Application.Diferenca.executor": "Run",
     "Application.DistanciaEntreDoisPontos.executor": "Run",
+    "Application.MediaTres.executor": "Run",
     "Application.MinhaClass.executor": "Run",
     "Application.Operadores.executor": "Run",
     "Application.TiposVariaveis.executor": "Run",
@@ -62,7 +63,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Diferenca">
+  <component name="RunManager" selected="Application.MediaTres">
     <configuration name="CriarContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.alan.projeto.contabancaria.CriarContaBancaria" />
       <module name="curso-dio" />
@@ -115,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.alan.estudos.javabasico.teste" />
+    <configuration name="MediaTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.alan.estudos.urijudge.MediaTres" />
       <module name="curso-dio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.alan.estudos.javabasico.*" />
+          <option name="PATTERN" value="edu.alan.estudos.urijudge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediaTres" />
         <item itemvalue="Application.Diferenca" />
         <item itemvalue="Application.DistanciaEntreDoisPontos" />
         <item itemvalue="Application.CriarContaBancaria" />
         <item itemvalue="Application.DefinirAnoBissexto" />
-        <item itemvalue="Application.teste" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714748710971</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Calculo de Diferença proposto pelo URI JUDGE">
+      <option name="closed" value="true" />
+      <created>1714750157947</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714750157947</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +271,8 @@
     <MESSAGE value="Conceito de Estruturas Condicionais, &#10;&#10;Condição simples, Condição Composta, Condição Encadeada e  Condição Ternaria." />
     <MESSAGE value="Estudos e Desafios." />
     <MESSAGE value="Alteração nome de metodo, aplicando a convenção camelCase." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração nome de metodo, aplicando a convenção camelCase." />
+    <MESSAGE value="Calculo de Diferença proposto pelo URI JUDGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculo de Diferença proposto pelo URI JUDGE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
