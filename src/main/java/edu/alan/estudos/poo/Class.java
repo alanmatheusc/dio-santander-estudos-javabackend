@@ -1,13 +1,24 @@
 package edu.alan.estudos.poo;
 
+import java.util.Date;
+
+// Identificador da classe
 public class Class {
     /*
-    * Classe em java -> Class é uma representação de um objeto em java.
-    * Identity -> Proposito existencial para que o objeto foi criado, Identificar a classe com um bom nome para que fique claro o proposito dessa classe!
-    * Caracteristicas -> Atributos e Propriedades.
-    * Comportamentos -> Ações ou Metodos.
-    * Instanciar -> Ato de criar um Objeto através de uma estrutura de uma Classe (New)
-    *
-    *
+    Identificador - Nome para identificar a classe, um bom nome facilita a identificação e qual a utilidade da classe criada.
+
+    Caracteristicas - Caracteristicas são atributos de uma classe, exemplo eu tenho uma classe de usuario os atributos são: Nome, idade, DataNascimento….
+
+    Comportamentos - Os comportamentos são os metodos da classe, e metodos são funções!
+
+    Instanciar - (new) A Instancia serve para criar objetos através da classe criada herdando todas as caracteristicas e metodos de instancia. (Metodos de classe não estão inclusos).
     * */
+
+    // Caracteristicas da classe:
+    private String name;
+    private int idade;
+    private Date dataNascimento;
+
+    // Criar um objeto por instancia e herdar caracteristicas e metodos da classe:
+    Class classe = new Class();
 }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="Calculo de Diferença proposto pelo URI JUDGE">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/urijudge/MediaTres.java" afterDir="false" />
+    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="1040 - Média 3 - URI JUDGE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/poo/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/poo/Class.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CriarContaBancaria.executor": "Run",
-    "Application.DefinirAnoBissexto.executor": "Run",
-    "Application.Diferenca.executor": "Run",
-    "Application.DistanciaEntreDoisPontos.executor": "Run",
-    "Application.MediaTres.executor": "Run",
-    "Application.MinhaClass.executor": "Run",
-    "Application.Operadores.executor": "Run",
-    "Application.TiposVariaveis.executor": "Run",
-    "Application.teste.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/oi/Desktop/curso-dio/src/main/java/dio/me/cursodio/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CriarContaBancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DefinirAnoBissexto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Diferenca.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DistanciaEntreDoisPontos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MediaTres.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinhaClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operadores.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TiposVariaveis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.teste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oi/Desktop/crud-java-spring&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/oi/Desktop/curso-dio/src/main/java/dio/me/cursodio/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MediaTres">
     <configuration name="CriarContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.alan.projeto.contabancaria.CriarContaBancaria" />
@@ -236,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714750157947</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1040 - Média 3 - URI JUDGE">
+      <option name="closed" value="true" />
+      <created>1714753850596</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714753850596</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,7 +281,8 @@
     <MESSAGE value="Estudos e Desafios." />
     <MESSAGE value="Alteração nome de metodo, aplicando a convenção camelCase." />
     <MESSAGE value="Calculo de Diferença proposto pelo URI JUDGE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculo de Diferença proposto pelo URI JUDGE" />
+    <MESSAGE value="1040 - Média 3 - URI JUDGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="1040 - Média 3 - URI JUDGE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -281,6 +291,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/edu/alan/estudos/javabasico/DefinirAnoBissexto.java</url>
           <line>23</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/alan/estudos/poo/Class.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
