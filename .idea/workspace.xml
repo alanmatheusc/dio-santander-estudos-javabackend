@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="Aula DIO &amp; Santander -&gt; PILARES DA POO.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/collections/ComparatorComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/collections/Generics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/collections/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/collections/UsageList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/collections/UsageSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/urijudge/AumentoSalarial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/urijudge/CalculoSimples.java" afterDir="false" />
+    <list default="true" id="da984085-f2c7-4a53-aa35-5dfdceb56c57" name="Changes" comment="Aula DIO &amp; Santander -&gt; Collections.&#10;Estudos e realização de exercicios URI JUDGE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/alan/estudos/entendendo/algoritimos/PesquisaBinaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +61,7 @@
     "Application.MinhaClass.executor": "Run",
     "Application.OlaMundo.executor": "Run",
     "Application.Operadores.executor": "Run",
+    "Application.PesquisaBinaria.executor": "Run",
     "Application.TiposVariaveis.executor": "Run",
     "Application.UsageSet.executor": "Run",
     "Application.teste.executor": "Run",
@@ -79,7 +74,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AumentoSalarial">
+  <component name="RunManager" selected="Application.PesquisaBinaria">
     <configuration name="AumentoSalarial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.alan.estudos.urijudge.AumentoSalarial" />
       <module name="curso-dio" />
@@ -119,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OlaMundo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.alan.estudos.collections.OlaMundo" />
+    <configuration name="PesquisaBinaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.alan.estudos.entendendo.algoritimos.PesquisaBinaria" />
       <module name="curso-dio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.alan.estudos.collections.*" />
+          <option name="PATTERN" value="edu.alan.estudos.entendendo.algoritimos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PesquisaBinaria" />
         <item itemvalue="Application.AumentoSalarial" />
         <item itemvalue="Application.CalculoSimples" />
         <item itemvalue="Application.ComparatorComparable" />
         <item itemvalue="Application.UsageSet" />
-        <item itemvalue="Application.OlaMundo" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715722626798</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Aula DIO &amp; Santander -&gt; Collections.&#10;Estudos e realização de exercicios URI JUDGE">
+      <option name="closed" value="true" />
+      <created>1716419685656</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716419685656</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +318,8 @@
     <MESSAGE value="1040 - Média 3 - URI JUDGE" />
     <MESSAGE value="Aula DIO &amp; Santander -&gt; Programação Orientada a objetos, Conceito de Class." />
     <MESSAGE value="Aula DIO &amp; Santander -&gt; PILARES DA POO." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula DIO &amp; Santander -&gt; PILARES DA POO." />
+    <MESSAGE value="Aula DIO &amp; Santander -&gt; Collections.&#10;Estudos e realização de exercicios URI JUDGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula DIO &amp; Santander -&gt; Collections.&#10;Estudos e realização de exercicios URI JUDGE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,6 +334,20 @@
           <line>9</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/alan/estudos/entendendo/algoritimos/PesquisaBinaria.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/alan/estudos/entendendo/algoritimos/PesquisaBinaria.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
